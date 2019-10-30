@@ -15,7 +15,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 450px;
-    height: 740px;
+    height: 780px;
     border: 1px solid grey;
     background-color: rgb(248, 248, 248);
 }
@@ -39,4 +39,19 @@ body {
 .width img {
     width: 110px;
     height: 110px;
+}
+
+.width-1 img {
+    width: 110px;
+    height: 110px;
+}
+
+.width:hover{
+    transform: translate(20px);
+    transition: 2s;
+}
+
+.width-1:hover {
+    transform: scale(2);
+    transition: 2s;
 }
