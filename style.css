@@ -30,3 +30,13 @@ body {
     height: 30px;
     margin-top: 20px;
 }
+
+.main-gallery {
+    display: flex;
+    margin-top: 20px;
+}
+
+.width img {
+    width: 110px;
+    height: 110px;
+}
